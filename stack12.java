@@ -1,17 +1,24 @@
-import java.util.*;
 
 public class stack12{
-    public class Node{
+    // !VERY IMPORTANT
+    //! use the keyword static for class defination
+    // public banao ya na banao is optional
+    
+    public static class Node{
         int data;
         Node next;
-
+        
         public Node(int data) {
             this.data=data;
             this.next=null;
         }
     }
     
-    public class Stack{
+    // !VERY IMPORTANT.
+    //! use the keyword static for class def --> VERY IMPORTANT
+    // public banao ya na banao is optional
+
+     public static class Stack{ 
         static Node head = null;
 
         //checking is empty or not 
