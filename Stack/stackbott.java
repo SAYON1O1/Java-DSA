@@ -1,3 +1,4 @@
+package Stack;
 import java.util.*;
 public class stackbott {
     public static  void pushAtBottom(Stack<Integer> s, int data){

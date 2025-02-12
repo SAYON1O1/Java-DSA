@@ -1,3 +1,4 @@
+package Stack;
 import java.util.*;
 public class stackStringRev {
         public static String rev(String str){

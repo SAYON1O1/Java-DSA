@@ -1,3 +1,4 @@
+package Stack;
 import java.util.*;
 
 // USING JAVA COLLECTION FRAMEWORK STACK
